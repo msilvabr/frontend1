@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado do Matheus</title>
+    <link href="./css/stylesheet.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form action="/requisitos.txt" method="POST">
+        <section class="cadastro">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id='nome' name='nome' placeholder='Digite seu nome'>
+            </div>
+            <div>
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" id='sobrenome' name='sobrenome' placeholder='Digite seu sobrenome'>
+            </div>
+            <div>
+                <label for="datanasc">Data de Nascimento</label>
+                <input type="date" id='datanasc' name='datanasc'>
+            </div>
+            <div>
+                <label for="CPF">CPF</label>
+                <input type="number" id='cpf' name='CPF' placeholder='Digite seu CPF'>
+            </div>
+            <div>
+                <label for="Endereco">Endereço</label>
+                <input type="text" id='Endereco' name='Endereco' placeholder='Digite seu endereço'>
+            </div>
+            <div>
+                <label for="Cidade">Cidade</label>
+                <input type="text" id='Cidade' name='Cidade' placeholder='Digite sua Cidade'>
+            </div>
+            <div>
+                <label for="UF">UF</label>
+                <input type="text" id='UF' name='UF' placeholder='Digite sua UF'>
+            </div>
+        </section>
+        <section class="gen">
+            <p>Gênero</p>
+            <div>
+                <input type="radio" name="gen" id="gen" value="gen">
+                <label for="gen">Masculino</label>
+                <br>
+                <input type="radio" name="gen" id="gen" value="gen">
+                <label for="gen">Feminino</label>
+                <br>
+                <input type="radio" name="gen" id="gen" value="gen">
+                <label for="gen">Outros</label>
+            </div>
+        </section>
+        <section class="estado">
+            <p>Região do país</p>
+            <div>
+                <input type="radio" name="regiao" id="regiao" value="regiao">
+                <label for="regiao">Sul</label>
+                <br>
+                <input type="radio" name="regiao" id="regiao" value="regiao">
+                <label for="regiao">Sudeste</label>
+                <br>
+                <input type="radio" name="regiao" id="regiao" value="regiao">
+                <label for="regiao">Centro Oeste</label>
+                <br>
+                <input type="radio" name="regiao" id="regiao" value="regiao">
+                <label for="regiao">Norte</label>
+                <br>
+                <input type="radio" name="regiao" id="regiao" value="regiao">
+                <label for="regiao">Nordeste</label>
+            </div>
+        </section>
+        <div>
+            <br>
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>
